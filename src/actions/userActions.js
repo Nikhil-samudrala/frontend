@@ -30,6 +30,7 @@ import {
 import {
     COMPANY_LOGIN_SUCCESS
 } from '../constants/companyConstants'
+
 import axios from 'axios'
 
 export const login = (values) => async (dispatch) => {
